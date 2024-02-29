@@ -18,6 +18,10 @@
 		ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E5F2B90A43A006EF14C /* NumberView.swift */; };
 		ACC20E622B90A57C006EF14C /* EmojiVisualisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E612B90A57C006EF14C /* EmojiVisualisation.swift */; };
 		ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E632B90A59D006EF14C /* EmojiView.swift */; };
+		ACC20E772B90C2F7006EF14C /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E762B90C2F7006EF14C /* Page.swift */; };
+		ACC20E792B90C6A6006EF14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E782B90C6A6006EF14C /* ContentView.swift */; };
+		ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E7A2B90CBC6006EF14C /* BananaView.swift */; };
+		ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E7C2B90CC71006EF14C /* CarrotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		ACC20E5F2B90A43A006EF14C /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 		ACC20E612B90A57C006EF14C /* EmojiVisualisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiVisualisation.swift; sourceTree = "<group>"; };
 		ACC20E632B90A59D006EF14C /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		ACC20E762B90C2F7006EF14C /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		ACC20E782B90C6A6006EF14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC20E7A2B90CBC6006EF14C /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
+		ACC20E7C2B90CC71006EF14C /* CarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 			children = (
 				ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */,
 				ACC20E582B909662006EF14C /* ExampleFromSite */,
+				ACC20E672B90AB79006EF14C /* ExampleMy */,
 				ACC20E4B2B908DC8006EF14C /* Assets.xcassets */,
 				ACC20E4D2B908DC8006EF14C /* Preview Content */,
 			);
@@ -107,6 +116,33 @@
 			children = (
 				ACC20E612B90A57C006EF14C /* EmojiVisualisation.swift */,
 				ACC20E5B2B9096C6006EF14C /* NumberList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC20E672B90AB79006EF14C /* ExampleMy */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E752B90C2EE006EF14C /* Model */,
+				ACC20E742B90C2DF006EF14C /* View */,
+			);
+			path = ExampleMy;
+			sourceTree = "<group>";
+		};
+		ACC20E742B90C2DF006EF14C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E782B90C6A6006EF14C /* ContentView.swift */,
+				ACC20E7A2B90CBC6006EF14C /* BananaView.swift */,
+				ACC20E7C2B90CC71006EF14C /* CarrotView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC20E752B90C2EE006EF14C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E762B90C2F7006EF14C /* Page.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,10 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC20E5C2B9096C6006EF14C /* NumberList.swift in Sources */,
+				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
+				ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */,
 				ACC20E5E2B90A3AE006EF14C /* NumberListView.swift in Sources */,
+				ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */,
 				ACC20E622B90A57C006EF14C /* EmojiVisualisation.swift in Sources */,
 				ACC20E5A2B909677006EF14C /* HomeView.swift in Sources */,
+				ACC20E792B90C6A6006EF14C /* ContentView.swift in Sources */,
 				ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */,
 				ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */,
 				ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */,

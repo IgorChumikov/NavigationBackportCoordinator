@@ -11,7 +11,8 @@ import SwiftUI
 struct NavigationBackportCoordinatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ExampleView()
+          //  ExampleView()
+            ContentView()
         }
     }
 }

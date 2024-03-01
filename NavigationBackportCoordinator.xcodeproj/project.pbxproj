@@ -27,6 +27,8 @@
 		ACC20E872B91CD2A006EF14C /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */; };
 		ACC20E892B91D160006EF14C /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E882B91D160006EF14C /* LemonView.swift */; };
 		ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E8A2B91D19A006EF14C /* OliveView.swift */; };
+		ACC20E8F2B91E3B9006EF14C /* BananaUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E8E2B91E3B9006EF14C /* BananaUIKitView.swift */; };
+		ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
 		ACC20E882B91D160006EF14C /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
 		ACC20E8A2B91D19A006EF14C /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
+		ACC20E8E2B91E3B9006EF14C /* BananaUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitView.swift; sourceTree = "<group>"; };
+		ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitViewAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		ACC20E742B90C2DF006EF14C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20E8D2B91E3A8006EF14C /* UiKitView */,
 				ACC20E8C2B91E365006EF14C /* SwiftUIView */,
 			);
 			path = View;
@@ -192,6 +197,15 @@
 				ACC20E8A2B91D19A006EF14C /* OliveView.swift */,
 			);
 			path = SwiftUIView;
+			sourceTree = "<group>";
+		};
+		ACC20E8D2B91E3A8006EF14C /* UiKitView */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E8E2B91E3B9006EF14C /* BananaUIKitView.swift */,
+				ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */,
+			);
+			path = UiKitView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +289,7 @@
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
+				ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */,
 				ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */,
 				ACC20E5E2B90A3AE006EF14C /* NumberListView.swift in Sources */,
 				ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */,
@@ -286,6 +301,7 @@
 				ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */,
 				ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */,
 				ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */,
+				ACC20E8F2B91E3B9006EF14C /* BananaUIKitView.swift in Sources */,
 				ACC20E852B91CD05006EF14C /* Sheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

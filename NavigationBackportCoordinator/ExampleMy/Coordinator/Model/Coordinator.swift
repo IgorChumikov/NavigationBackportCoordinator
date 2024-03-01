@@ -18,18 +18,20 @@ final class Coordinator: ObservableObject {
     @Published var sheet: Sheet?
     @Published var fullScreenCover: FullScreenCover?
     
-    // MARK: - Functions
+    // MARK: - Functions sheet
     
     func present(_ sheet: Sheet) {
         self.sheet = sheet
     }
     
-    func fullScreenCover(_ fullScreenCover: FullScreenCover) {
-        self.fullScreenCover = fullScreenCover
-    }
-    
     func dismissSheet() {
         sheet = nil
+    }
+    
+    // MARK: - Functions fullScreenCover
+    
+    func fullScreenCover(_ fullScreenCover: FullScreenCover) {
+        self.fullScreenCover = fullScreenCover
     }
     
     func dismissFullScreenCover() {
@@ -45,6 +47,8 @@ final class Coordinator: ObservableObject {
             BananaView()
         case .carrot:
             CarrotView()
+        case .bananaUIKit:
+            BananaUIKitViewAssembly()
         }
     }
     

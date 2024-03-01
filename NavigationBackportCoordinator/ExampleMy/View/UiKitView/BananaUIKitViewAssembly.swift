@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NavigationBackport
 
 // MARK: - BananaUIKitViewAssembly
 
@@ -13,13 +14,13 @@ struct BananaUIKitViewAssembly: UIViewControllerRepresentable {
     
     // MARK: - Properties
     
-    var coordinator: Coordinator
+    @EnvironmentObject var navigator: PathNavigator
     
     // MARK: - UIViewControllerRepresentable
     
     func makeUIViewController(context: Context) -> UIViewController {
         let bananaViewController = BananaUIKitView()
-        bananaViewController.coordinator = coordinator
+        bananaViewController.navigator = navigator
         return bananaViewController
     }
     

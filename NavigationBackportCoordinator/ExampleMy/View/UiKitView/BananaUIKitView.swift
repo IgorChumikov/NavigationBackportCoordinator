@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NavigationBackport
 
 // MARK: - BananaUIKitView
 
@@ -13,7 +14,7 @@ final class BananaUIKitView: UIViewController {
 
     // MARK: - Properties
     
-    var coordinator: Coordinator!
+    var navigator: PathNavigator!
     
     // MARK: - Lifecycle
     
@@ -55,11 +56,11 @@ final class BananaUIKitView: UIViewController {
     // MARK: - Actions
     
     @objc private func pushButtonTapped() {
-     //   coordinator.push(.carrot)
+        navigator.push(Page.carrot)
     }
     
     @objc private func popButtonTapped() {
-      //  coordinator.pop()
+        navigator.pop()
     }
 }
 

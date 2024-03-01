@@ -23,6 +23,9 @@ struct BananaView: View {
             Button("Pop") {
                 navigator.pop()
             }
+            Button("Push UIKit 🍌") {
+                navigator.push(Page.bananaUIKit)
+            }
         }
         .navigationTitle("🍌")
     }

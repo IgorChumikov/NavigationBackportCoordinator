@@ -47,6 +47,8 @@ final class Coordinator: ObservableObject {
             BananaView()
         case .carrot:
             CarrotView()
+        case .strawberry:
+            StrawberryView()
         case .bananaUIKit:
             BananaUIKitViewAssembly()
         }

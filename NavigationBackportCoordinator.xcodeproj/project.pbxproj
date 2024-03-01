@@ -29,6 +29,7 @@
 		ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E8A2B91D19A006EF14C /* OliveView.swift */; };
 		ACC20E8F2B91E3B9006EF14C /* BananaUIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E8E2B91E3B9006EF14C /* BananaUIKitView.swift */; };
 		ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */; };
+		ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E922B9203AF006EF14C /* StrawberryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		ACC20E8A2B91D19A006EF14C /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
 		ACC20E8E2B91E3B9006EF14C /* BananaUIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitView.swift; sourceTree = "<group>"; };
 		ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitViewAssembly.swift; sourceTree = "<group>"; };
+		ACC20E922B9203AF006EF14C /* StrawberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				ACC20E7C2B90CC71006EF14C /* CarrotView.swift */,
 				ACC20E882B91D160006EF14C /* LemonView.swift */,
 				ACC20E8A2B91D19A006EF14C /* OliveView.swift */,
+				ACC20E922B9203AF006EF14C /* StrawberryView.swift */,
 			);
 			path = SwiftUIView;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				ACC20E892B91D160006EF14C /* LemonView.swift in Sources */,
 				ACC20E5C2B9096C6006EF14C /* NumberList.swift in Sources */,
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
+				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
 				ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */,

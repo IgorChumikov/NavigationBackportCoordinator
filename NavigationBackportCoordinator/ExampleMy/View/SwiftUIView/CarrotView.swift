@@ -18,6 +18,9 @@ struct CarrotView: View {
     
     var body: some View {
         List {
+            Button("Push 🍓") {
+                navigator.push(Page.strawberry)
+            }
             Button("Pop") {
                 navigator.pop()
             }

@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Page
 
 enum Page: String, Identifiable {
-    case banana, carrot, bananaUIKit
+    case banana, carrot, strawberry, bananaUIKit
     
     var id: String {
         self.rawValue

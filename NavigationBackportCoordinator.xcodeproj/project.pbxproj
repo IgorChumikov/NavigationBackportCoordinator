@@ -23,6 +23,10 @@
 		ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E7A2B90CBC6006EF14C /* BananaView.swift */; };
 		ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E7C2B90CC71006EF14C /* CarrotView.swift */; };
 		ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E7F2B91C968006EF14C /* Coordinator.swift */; };
+		ACC20E852B91CD05006EF14C /* Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E842B91CD05006EF14C /* Sheet.swift */; };
+		ACC20E872B91CD2A006EF14C /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */; };
+		ACC20E892B91D160006EF14C /* LemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E882B91D160006EF14C /* LemonView.swift */; };
+		ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E8A2B91D19A006EF14C /* OliveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		ACC20E7A2B90CBC6006EF14C /* BananaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaView.swift; sourceTree = "<group>"; };
 		ACC20E7C2B90CC71006EF14C /* CarrotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotView.swift; sourceTree = "<group>"; };
 		ACC20E7F2B91C968006EF14C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		ACC20E842B91CD05006EF14C /* Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheet.swift; sourceTree = "<group>"; };
+		ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
+		ACC20E882B91D160006EF14C /* LemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonView.swift; sourceTree = "<group>"; };
+		ACC20E8A2B91D19A006EF14C /* OliveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				ACC20E7E2B91C95E006EF14C /* Coordinator */,
-				ACC20E752B90C2EE006EF14C /* Model */,
 				ACC20E742B90C2DF006EF14C /* View */,
 			);
 			path = ExampleMy;
@@ -137,16 +144,10 @@
 			children = (
 				ACC20E7A2B90CBC6006EF14C /* BananaView.swift */,
 				ACC20E7C2B90CC71006EF14C /* CarrotView.swift */,
+				ACC20E882B91D160006EF14C /* LemonView.swift */,
+				ACC20E8A2B91D19A006EF14C /* OliveView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		ACC20E752B90C2EE006EF14C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				ACC20E762B90C2F7006EF14C /* Page.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		ACC20E7E2B91C95E006EF14C /* Coordinator */ = {
@@ -163,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				ACC20E7F2B91C968006EF14C /* Coordinator.swift */,
+				ACC20E832B91CCDD006EF14C /* Enums */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +174,16 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		ACC20E832B91CCDD006EF14C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E762B90C2F7006EF14C /* Page.swift */,
+				ACC20E842B91CD05006EF14C /* Sheet.swift */,
+				ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,19 +262,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC20E892B91D160006EF14C /* LemonView.swift in Sources */,
 				ACC20E5C2B9096C6006EF14C /* NumberList.swift in Sources */,
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
 				ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */,
 				ACC20E5E2B90A3AE006EF14C /* NumberListView.swift in Sources */,
+				ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */,
 				ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */,
 				ACC20E622B90A57C006EF14C /* EmojiVisualisation.swift in Sources */,
+				ACC20E872B91CD2A006EF14C /* FullScreenCover.swift in Sources */,
 				ACC20E5A2B909677006EF14C /* HomeView.swift in Sources */,
 				ACC20E792B90C6A6006EF14C /* CoordinatorView.swift in Sources */,
 				ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */,
 				ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */,
 				ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */,
+				ACC20E852B91CD05006EF14C /* Sheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

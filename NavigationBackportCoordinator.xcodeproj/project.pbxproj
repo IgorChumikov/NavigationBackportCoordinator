@@ -142,10 +142,7 @@
 		ACC20E742B90C2DF006EF14C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACC20E7A2B90CBC6006EF14C /* BananaView.swift */,
-				ACC20E7C2B90CC71006EF14C /* CarrotView.swift */,
-				ACC20E882B91D160006EF14C /* LemonView.swift */,
-				ACC20E8A2B91D19A006EF14C /* OliveView.swift */,
+				ACC20E8C2B91E365006EF14C /* SwiftUIView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -184,6 +181,17 @@
 				ACC20E862B91CD2A006EF14C /* FullScreenCover.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		ACC20E8C2B91E365006EF14C /* SwiftUIView */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E7A2B90CBC6006EF14C /* BananaView.swift */,
+				ACC20E7C2B90CC71006EF14C /* CarrotView.swift */,
+				ACC20E882B91D160006EF14C /* LemonView.swift */,
+				ACC20E8A2B91D19A006EF14C /* OliveView.swift */,
+			);
+			path = SwiftUIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

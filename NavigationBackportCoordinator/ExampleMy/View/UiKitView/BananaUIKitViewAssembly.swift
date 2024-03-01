@@ -15,12 +15,14 @@ struct BananaUIKitViewAssembly: UIViewControllerRepresentable {
     // MARK: - Properties
     
     @EnvironmentObject var navigator: PathNavigator
+    @EnvironmentObject var coordinator: Coordinator
     
     // MARK: - UIViewControllerRepresentable
     
     func makeUIViewController(context: Context) -> UIViewController {
         let bananaViewController = BananaUIKitView()
         bananaViewController.navigator = navigator
+        bananaViewController.coordinator = coordinator
         return bananaViewController
     }
     

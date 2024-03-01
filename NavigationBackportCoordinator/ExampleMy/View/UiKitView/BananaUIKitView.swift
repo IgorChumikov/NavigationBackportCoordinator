@@ -15,6 +15,7 @@ final class BananaUIKitView: UIViewController {
     // MARK: - Properties
     
     var navigator: PathNavigator!
+    var coordinator: Coordinator!
     
     // MARK: - Lifecycle
     
@@ -38,7 +39,17 @@ final class BananaUIKitView: UIViewController {
         popButton.setTitleColor(.blue, for: .normal)
         popButton.addTarget(self, action: #selector(popButtonTapped), for: .touchUpInside)
         
-        let stackView = UIStackView(arrangedSubviews: [pushButton, popButton])
+        let sheetButton = UIButton()
+        sheetButton.setTitle("Present sheet SwiftUI🍋", for: .normal) // Corrected button title
+        sheetButton.setTitleColor(.blue, for: .normal)
+        sheetButton.addTarget(self, action: #selector(presentSheetSwiftUI), for: .touchUpInside) // Corrected action
+        
+        let fullScreenCoverButton = UIButton()
+        fullScreenCoverButton.setTitle("Present fullScreenCover SwiftUI🫒", for: .normal) // Corrected button title
+        fullScreenCoverButton.setTitleColor(.blue, for: .normal)
+        fullScreenCoverButton.addTarget(self, action: #selector(presentFullScreenCoverSwiftUI), for: .touchUpInside) // Corrected action
+        
+        let stackView = UIStackView(arrangedSubviews: [pushButton, popButton, sheetButton, fullScreenCoverButton])
         stackView.axis = .vertical
         stackView.spacing = 20
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -52,6 +63,7 @@ final class BananaUIKitView: UIViewController {
         
         title = "🍌"
     }
+
     
     // MARK: - Actions
     
@@ -61,6 +73,14 @@ final class BananaUIKitView: UIViewController {
     
     @objc private func popButtonTapped() {
         navigator.pop()
+    }
+    
+    @objc private func presentSheetSwiftUI() {
+        coordinator.present(.lemon)
+    }
+    
+    @objc private func presentFullScreenCoverSwiftUI() {
+        coordinator.fullScreenCover(.olive)
     }
 }
 

@@ -30,7 +30,7 @@ final class BananaUIKitView: UIViewController {
         view.backgroundColor = .white
         
         let pushButton = UIButton()
-        pushButton.setTitle("Push 🥕", for: .normal)
+        pushButton.setTitle("Push SwiftUI🥕", for: .normal)
         pushButton.setTitleColor(.blue, for: .normal)
         pushButton.addTarget(self, action: #selector(pushButtonTapped), for: .touchUpInside)
         

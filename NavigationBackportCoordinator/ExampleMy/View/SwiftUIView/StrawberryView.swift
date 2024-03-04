@@ -20,7 +20,7 @@ struct StrawberryView: View {
     
     var body: some View {
         List {
-            Button("pop") {
+            Button("Pop") {
                 navigator.pop()
             }
         }

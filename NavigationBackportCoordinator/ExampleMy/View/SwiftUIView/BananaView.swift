@@ -17,7 +17,7 @@ struct BananaView: View {
     
     var body: some View {
         List {
-            Button("Push 🥕") {
+            Button("Push SwiftUI 🥕") {
                 navigator.push(Page.carrot)
             }
             Button("Pop") {

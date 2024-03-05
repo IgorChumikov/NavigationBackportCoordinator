@@ -46,7 +46,18 @@ final class CoordinatorPlus: ObservableObject {
         case .news :
             NewsPageView()
         }
+    }
     
+    @ViewBuilder
+    func build2(_ page: ListPage) -> some View {
+        switch page {
+        case .news :
+            ListPlusView()
+        case .codes:
+            ListPlusView()
+        case .reviews:
+            ListPlusView()
+        }
     }
     
     @ViewBuilder

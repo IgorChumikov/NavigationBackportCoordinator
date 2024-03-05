@@ -47,6 +47,9 @@ struct TabsPlusView: View {
             .nbNavigationDestination(for: NewsPage.self) { page in
                 coordinator.build(page)
             }
+            .nbNavigationDestination(for: ListPage.self) { page in
+                coordinator.build2(page)
+            }
             .sheet(item: $coordinator.sheet) { sheet in
                 coordinator.build(sheet)
             }

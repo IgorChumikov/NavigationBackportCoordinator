@@ -12,6 +12,7 @@ struct HousePlusView: View {
     
     // MARK: - Properties
     
+    @EnvironmentObject private var coordinator: CoordinatorPlus
     @EnvironmentObject var navigator: PathNavigator
     
     var body: some View {
@@ -19,7 +20,7 @@ struct HousePlusView: View {
         VStack(spacing: 40) {
             VStack(alignment: .leading, spacing: 10) {
                 Button("Ссылка на список Новостей") {
-                    // FOX
+                    navigator.push(ListPage.news)
                 }
                 Button("Ссылка на новость") {
                     navigator.push(NewsPage.news)

@@ -31,6 +31,7 @@
 		ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */; };
 		ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E922B9203AF006EF14C /* StrawberryView.swift */; };
 		ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */; };
+		ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E972B970433006EF14C /* ListPlusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		ACC20E902B91E40B006EF14C /* BananaUIKitViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaUIKitViewAssembly.swift; sourceTree = "<group>"; };
 		ACC20E922B9203AF006EF14C /* StrawberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryView.swift; sourceTree = "<group>"; };
 		ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPlusView.swift; sourceTree = "<group>"; };
+		ACC20E972B970433006EF14C /* ListPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,9 +219,26 @@
 		ACC20E942B96FDA5006EF14C /* ExamplePlus */ = {
 			isa = PBXGroup;
 			children = (
-				ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */,
+				ACC20E992B9707FD006EF14C /* MainView */,
+				ACC20E9A2B97080B006EF14C /* Views */,
 			);
 			path = ExamplePlus;
+			sourceTree = "<group>";
+		};
+		ACC20E992B9707FD006EF14C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		ACC20E9A2B97080B006EF14C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E972B970433006EF14C /* ListPlusView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +319,7 @@
 			files = (
 				ACC20E892B91D160006EF14C /* LemonView.swift in Sources */,
 				ACC20E5C2B9096C6006EF14C /* NumberList.swift in Sources */,
+				ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */,
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,

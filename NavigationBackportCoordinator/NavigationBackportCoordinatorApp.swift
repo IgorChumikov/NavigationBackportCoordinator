@@ -12,7 +12,8 @@ struct NavigationBackportCoordinatorApp: App {
     var body: some Scene {
         WindowGroup {
           //  ExampleView()
-            CoordinatorView()
+           // CoordinatorView()
+            TabsPlusView()
         }
     }
 }

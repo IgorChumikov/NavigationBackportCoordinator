@@ -14,18 +14,18 @@ struct ListPlusView: View {
     // MARK: - Content
     
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(0..<20) { index in
-                    Text("Item \(index + 1)")
-                }
+        List {
+            ForEach(0..<20) { index in
+                Text("Item \(index + 1)")
             }
-            .listStyle(.inset)
-            .navigationTitle("List")
         }
+        .listStyle(.inset)
+        .navigationTitle("List")
     }
 }
 
 #Preview {
+    NavigationView {
         ListPlusView()
+    }
 }

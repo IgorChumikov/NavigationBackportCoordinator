@@ -32,6 +32,7 @@
 		ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E922B9203AF006EF14C /* StrawberryView.swift */; };
 		ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */; };
 		ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E972B970433006EF14C /* ListPlusView.swift */; };
+		ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E9B2B970889006EF14C /* HousePlusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		ACC20E922B9203AF006EF14C /* StrawberryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrawberryView.swift; sourceTree = "<group>"; };
 		ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPlusView.swift; sourceTree = "<group>"; };
 		ACC20E972B970433006EF14C /* ListPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlusView.swift; sourceTree = "<group>"; };
+		ACC20E9B2B970889006EF14C /* HousePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePlusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 		ACC20E9A2B97080B006EF14C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20E9B2B970889006EF14C /* HousePlusView.swift */,
 				ACC20E972B970433006EF14C /* ListPlusView.swift */,
 			);
 			path = Views;
@@ -323,6 +326,7 @@
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,
+				ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
 				ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */,

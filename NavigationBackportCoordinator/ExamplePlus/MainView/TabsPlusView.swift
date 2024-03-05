@@ -22,11 +22,11 @@ struct TabsPlusView: View {
     var body: some View {
         NBNavigationStack(path: $coordinator.path) {
             TabView(selection: $selectedTabIndex) {
-                Text("Содержимое вкладки 1")
+                HousePlusView()
                     .tag(0)
                     .tabItem {
                         Image(systemName: "house")
-                        Text("First")
+                        Text("House")
                     }
                 Text("Содержимое вкладки 2")
                     .tag(1)

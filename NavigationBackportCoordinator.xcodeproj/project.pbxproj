@@ -33,6 +33,7 @@
 		ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */; };
 		ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E972B970433006EF14C /* ListPlusView.swift */; };
 		ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E9B2B970889006EF14C /* HousePlusView.swift */; };
+		ACC20EA02B970DE4006EF14C /* CoordinatorPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPlusView.swift; sourceTree = "<group>"; };
 		ACC20E972B970433006EF14C /* ListPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlusView.swift; sourceTree = "<group>"; };
 		ACC20E9B2B970889006EF14C /* HousePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePlusView.swift; sourceTree = "<group>"; };
+		ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPlus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 		ACC20E942B96FDA5006EF14C /* ExamplePlus */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20E9D2B970DAE006EF14C /* Coordinator */,
 				ACC20E992B9707FD006EF14C /* MainView */,
 				ACC20E9A2B97080B006EF14C /* Views */,
 			);
@@ -242,6 +245,22 @@
 				ACC20E972B970433006EF14C /* ListPlusView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ACC20E9D2B970DAE006EF14C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E9E2B970DBF006EF14C /* Model */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		ACC20E9E2B970DBF006EF14C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +347,7 @@
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,
 				ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
+				ACC20EA02B970DE4006EF14C /* CoordinatorPlus.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,
 				ACC20E912B91E40B006EF14C /* BananaUIKitViewAssembly.swift in Sources */,
 				ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */,

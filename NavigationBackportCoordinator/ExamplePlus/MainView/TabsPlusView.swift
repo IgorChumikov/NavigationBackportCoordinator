@@ -15,7 +15,10 @@ struct TabsPlusView: View {
     // MARK: - Properties
     
     @State private var selectedTabIndex = 0
-    @StateObject private var coordinator = Coordinator()
+    
+    // MARK: - Private properties
+    
+    @StateObject private var coordinator = CoordinatorPlus()
     
     // MARK: - Content
     
@@ -41,7 +44,15 @@ struct TabsPlusView: View {
                         Text("Third")
                     }
             }
-            
+            .nbNavigationDestination(for: Page.self) { page in
+                coordinator.build(page)
+            }
+            .sheet(item: $coordinator.sheet) { sheet in
+                coordinator.build(sheet)
+            }
+            .fullScreenCover(item: $coordinator.fullScreenCover) { fullScreenCover in
+                coordinator.build(fullScreenCover)
+            }
         }
         .environmentObject(coordinator)
     }

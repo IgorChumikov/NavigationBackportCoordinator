@@ -34,6 +34,9 @@
 		ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E972B970433006EF14C /* ListPlusView.swift */; };
 		ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E9B2B970889006EF14C /* HousePlusView.swift */; };
 		ACC20EA02B970DE4006EF14C /* CoordinatorPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */; };
+		ACC20EA32B970EF9006EF14C /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA22B970EF9006EF14C /* ListPage.swift */; };
+		ACC20EA52B97119D006EF14C /* NewsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA42B97119D006EF14C /* NewsPageView.swift */; };
+		ACC20EA72B9711C6006EF14C /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA62B9711C6006EF14C /* NewsPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		ACC20E972B970433006EF14C /* ListPlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlusView.swift; sourceTree = "<group>"; };
 		ACC20E9B2B970889006EF14C /* HousePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePlusView.swift; sourceTree = "<group>"; };
 		ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPlus.swift; sourceTree = "<group>"; };
+		ACC20EA22B970EF9006EF14C /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
+		ACC20EA42B97119D006EF14C /* NewsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageView.swift; sourceTree = "<group>"; };
+		ACC20EA62B9711C6006EF14C /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +249,7 @@
 			children = (
 				ACC20E9B2B970889006EF14C /* HousePlusView.swift */,
 				ACC20E972B970433006EF14C /* ListPlusView.swift */,
+				ACC20EA42B97119D006EF14C /* NewsPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -258,9 +265,19 @@
 		ACC20E9E2B970DBF006EF14C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20EA12B970E6C006EF14C /* Enums */,
 				ACC20E9F2B970DE4006EF14C /* CoordinatorPlus.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC20EA12B970E6C006EF14C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				ACC20EA22B970EF9006EF14C /* ListPage.swift */,
+				ACC20EA62B9711C6006EF14C /* NewsPage.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +360,7 @@
 				ACC20E5C2B9096C6006EF14C /* NumberList.swift in Sources */,
 				ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */,
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
+				ACC20EA72B9711C6006EF14C /* NewsPage.swift in Sources */,
 				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,
 				ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */,
@@ -353,7 +371,9 @@
 				ACC20E7B2B90CBC6006EF14C /* BananaView.swift in Sources */,
 				ACC20E5E2B90A3AE006EF14C /* NumberListView.swift in Sources */,
 				ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */,
+				ACC20EA32B970EF9006EF14C /* ListPage.swift in Sources */,
 				ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */,
+				ACC20EA52B97119D006EF14C /* NewsPageView.swift in Sources */,
 				ACC20E622B90A57C006EF14C /* EmojiVisualisation.swift in Sources */,
 				ACC20E872B91CD2A006EF14C /* FullScreenCover.swift in Sources */,
 				ACC20E5A2B909677006EF14C /* HomeView.swift in Sources */,

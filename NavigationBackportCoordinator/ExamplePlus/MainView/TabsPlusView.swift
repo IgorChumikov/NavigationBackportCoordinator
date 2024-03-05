@@ -44,7 +44,7 @@ struct TabsPlusView: View {
                         Text("Third")
                     }
             }
-            .nbNavigationDestination(for: Page.self) { page in
+            .nbNavigationDestination(for: NewsPage.self) { page in
                 coordinator.build(page)
             }
             .sheet(item: $coordinator.sheet) { sheet in

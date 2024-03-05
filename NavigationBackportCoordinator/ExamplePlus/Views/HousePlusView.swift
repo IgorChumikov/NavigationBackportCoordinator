@@ -6,15 +6,27 @@
 //
 
 import SwiftUI
+import NavigationBackport
 
 struct HousePlusView: View {
-    var body: some View {
     
+    // MARK: - Properties
+    
+    @EnvironmentObject var navigator: PathNavigator
+    
+    var body: some View {
+        
         VStack(spacing: 40) {
             VStack(alignment: .leading, spacing: 10) {
-                Text("Ссылка на список Новостей")
-                Text("Ссылка на новость")
-                Text("Ссылка на новость")
+                Button("Ссылка на список Новостей") {
+                    // FOX
+                }
+                Button("Ссылка на новость") {
+                    navigator.push(NewsPage.news)
+                }
+                Button("Ссылка на новость") {
+                    navigator.push(NewsPage.news)
+                }
                 Text("Ссылка на новость")
             }
             .padding(.top, 40)
@@ -36,7 +48,7 @@ struct HousePlusView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.yellow)
     }
-               
+    
 }
 
 #Preview {

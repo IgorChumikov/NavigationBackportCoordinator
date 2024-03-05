@@ -41,17 +41,12 @@ final class CoordinatorPlus: ObservableObject {
     // MARK: - Functions View
     
     @ViewBuilder
-    func build(_ page: Page) -> some View {
+    func build(_ page: NewsPage) -> some View {
         switch page {
-        case .banana:
-            BananaView()
-        case .carrot:
-            CarrotView()
-        case .strawberry:
-            StrawberryView()
-        case .bananaUIKit:
-            BananaUIKitViewAssembly()
+        case .news :
+            NewsPageView()
         }
+    
     }
     
     @ViewBuilder

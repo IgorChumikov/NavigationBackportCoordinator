@@ -37,7 +37,6 @@
 		ACC20EA32B970EF9006EF14C /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA22B970EF9006EF14C /* ListPage.swift */; };
 		ACC20EA52B97119D006EF14C /* NewsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA42B97119D006EF14C /* NewsPageView.swift */; };
 		ACC20EA72B9711C6006EF14C /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA62B9711C6006EF14C /* NewsPage.swift */; };
-		ACC20EAF2B974A74006EF14C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EAE2B974A74006EF14C /* ContentView.swift */; };
 		ACC20EB22B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EB12B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACC20EB72B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EB62B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift */; };
 /* End PBXBuildFile section */
@@ -73,7 +72,6 @@
 		ACC20EA22B970EF9006EF14C /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
 		ACC20EA42B97119D006EF14C /* NewsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageView.swift; sourceTree = "<group>"; };
 		ACC20EA62B9711C6006EF14C /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
-		ACC20EAE2B974A74006EF14C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACC20EB12B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACC20EB62B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HiddenTabBar+ShowTabBar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,7 +256,6 @@
 				ACC20E9B2B970889006EF14C /* HousePlusView.swift */,
 				ACC20E972B970433006EF14C /* ListPlusView.swift */,
 				ACC20EA42B97119D006EF14C /* NewsPageView.swift */,
-				ACC20EAE2B974A74006EF14C /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -408,7 +405,6 @@
 				ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */,
 				ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */,
 				ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */,
-				ACC20EAF2B974A74006EF14C /* ContentView.swift in Sources */,
 				ACC20E8F2B91E3B9006EF14C /* BananaUIKitView.swift in Sources */,
 				ACC20E852B91CD05006EF14C /* Sheet.swift in Sources */,
 			);

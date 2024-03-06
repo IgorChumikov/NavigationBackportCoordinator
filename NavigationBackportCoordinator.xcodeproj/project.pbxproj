@@ -39,6 +39,7 @@
 		ACC20EA72B9711C6006EF14C /* NewsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EA62B9711C6006EF14C /* NewsPage.swift */; };
 		ACC20EB22B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EB12B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACC20EB72B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EB62B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift */; };
+		ACC20EB92B98C1E6006EF14C /* TabsPlusView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EB82B98C1E6006EF14C /* TabsPlusView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		ACC20EA62B9711C6006EF14C /* NewsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPage.swift; sourceTree = "<group>"; };
 		ACC20EB12B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACC20EB62B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HiddenTabBar+ShowTabBar.swift"; sourceTree = "<group>"; };
+		ACC20EB82B98C1E6006EF14C /* TabsPlusView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPlusView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				ACC20E952B96FE2C006EF14C /* TabsPlusView.swift */,
+				ACC20EB82B98C1E6006EF14C /* TabsPlusView2.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				ACC20EB72B9856FE006EF14C /* HiddenTabBar+ShowTabBar.swift in Sources */,
 				ACC20EB22B9855B2006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				ACC20E982B970433006EF14C /* ListPlusView.swift in Sources */,
+				ACC20EB92B98C1E6006EF14C /* TabsPlusView2.swift in Sources */,
 				ACC20E772B90C2F7006EF14C /* Page.swift in Sources */,
 				ACC20EA72B9711C6006EF14C /* NewsPage.swift in Sources */,
 				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,

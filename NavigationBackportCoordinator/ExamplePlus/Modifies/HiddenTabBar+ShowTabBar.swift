@@ -1,8 +1,8 @@
 //
-//  Helper.swift
+//  HiddenTabBar+.swift
 //  NavigationBackportCoordinator
 //
-//  Created by Игорь Чумиков on 05.03.2024.
+//  Created by Игорь Чумиков on 06.03.2024.
 //
 
 import SwiftUI

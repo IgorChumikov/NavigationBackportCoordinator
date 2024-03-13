@@ -1,4 +1,5 @@
 {
+  "originHash" : "7d32389ba521d233a93199e7b2da0d7272e5d44435b764eec48b67b43bcfa32f",
   "pins" : [
     {
       "identity" : "navigationbackport",
@@ -8,7 +9,16 @@
         "revision" : "b002991691b54fd7b952e1e780de252620f8ac77",
         "version" : "0.9.1"
       }
+    },
+    {
+      "identity" : "suinavigation?tab=readme-ov-file",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ozontech/SUINavigation?tab=readme-ov-file",
+      "state" : {
+        "revision" : "8dfed491ecdebdcf8609cf1eebd3fbf15ce9b2e4",
+        "version" : "1.9.3"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

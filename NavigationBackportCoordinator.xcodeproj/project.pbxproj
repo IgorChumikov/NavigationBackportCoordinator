@@ -144,13 +144,6 @@
 			path = NavigationBackport;
 			sourceTree = "<group>";
 		};
-		AC7CEF872BA1C93800EFE002 /* SUINavigation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SUINavigation;
-			sourceTree = "<group>";
-		};
 		ACC20E3B2B908DC6006EF14C = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +166,6 @@
 				ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */,
 				AC7CEF862BA1C8E500EFE002 /* NavigationBackport */,
 				AC7CEF702BA190DF00EFE002 /* NavigationDemo */,
-				AC7CEF872BA1C93800EFE002 /* SUINavigation */,
 				ACC20E4B2B908DC8006EF14C /* Assets.xcassets */,
 				ACC20E4D2B908DC8006EF14C /* Preview Content */,
 			);

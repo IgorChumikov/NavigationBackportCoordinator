@@ -232,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				ACC20E822B91CBC7006EF14C /* View */,
-				ACC20E782B90C6A6006EF14C /* CoordinatorView.swift */,
 				ACC20E812B91CBBC006EF14C /* Model */,
 			);
 			path = Coordinator;
@@ -250,6 +249,7 @@
 		ACC20E822B91CBC7006EF14C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACC20E782B90C6A6006EF14C /* CoordinatorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

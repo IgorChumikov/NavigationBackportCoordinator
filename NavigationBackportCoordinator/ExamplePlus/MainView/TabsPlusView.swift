@@ -31,7 +31,7 @@ struct TabsPlusView: View {
                         Image(systemName: "house")
                         Text("House")
                     }
-                Text("Содержимое вкладки 2")
+                NavigationDemoView()
                     .tag(1)
                     .tabItem {
                         Image(systemName: "folder")

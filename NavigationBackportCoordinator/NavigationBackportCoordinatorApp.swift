@@ -13,7 +13,9 @@ struct NavigationBackportCoordinatorApp: App {
         WindowGroup {
           //  ExampleView()
            // CoordinatorView()
-            TabsPlusView()
+          //  TabsPlusView()
+            
+            NavigationDemoView()
         }
     }
 }

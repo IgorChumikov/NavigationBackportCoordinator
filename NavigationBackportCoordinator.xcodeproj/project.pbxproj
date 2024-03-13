@@ -14,8 +14,6 @@
 		AC7CEF7C2BA1921E00EFE002 /* NavigationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7B2BA1921E00EFE002 /* NavigationStorage.swift */; };
 		AC7CEF7E2BA1923B00EFE002 /* NavigationPathItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7D2BA1923B00EFE002 /* NavigationPathItem.swift */; };
 		AC7CEF802BA1BC1A00EFE002 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7F2BA1BC1A00EFE002 /* MainNavigationView.swift */; };
-		AC7CEF832BA1C8CE00EFE002 /* SUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = AC7CEF822BA1C8CE00EFE002 /* SUINavigation */; };
-		AC7CEF852BA1C8CE00EFE002 /* SUINavigationTest in Frameworks */ = {isa = PBXBuildFile; productRef = AC7CEF842BA1C8CE00EFE002 /* SUINavigationTest */; };
 		ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */; };
 		ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E492B908DC6006EF14C /* ExampleView.swift */; };
 		ACC20E4C2B908DC8006EF14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC20E4B2B908DC8006EF14C /* Assets.xcassets */; };
@@ -99,8 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7CEF852BA1C8CE00EFE002 /* SUINavigationTest in Frameworks */,
-				AC7CEF832BA1C8CE00EFE002 /* SUINavigation in Frameworks */,
 				ACC20E572B9090CE006EF14C /* NavigationBackport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +384,6 @@
 			name = NavigationBackportCoordinator;
 			packageProductDependencies = (
 				ACC20E562B9090CE006EF14C /* NavigationBackport */,
-				AC7CEF822BA1C8CE00EFE002 /* SUINavigation */,
-				AC7CEF842BA1C8CE00EFE002 /* SUINavigationTest */,
 			);
 			productName = NavigationBackportCoordinator;
 			productReference = ACC20E442B908DC6006EF14C /* NavigationBackportCoordinator.app */;
@@ -712,16 +706,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AC7CEF822BA1C8CE00EFE002 /* SUINavigation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AC7CEF812BA1C8CE00EFE002 /* XCRemoteSwiftPackageReference "SUINavigation" */;
-			productName = SUINavigation;
-		};
-		AC7CEF842BA1C8CE00EFE002 /* SUINavigationTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AC7CEF812BA1C8CE00EFE002 /* XCRemoteSwiftPackageReference "SUINavigation" */;
-			productName = SUINavigationTest;
-		};
 		ACC20E562B9090CE006EF14C /* NavigationBackport */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = ACC20E552B9090CD006EF14C /* XCRemoteSwiftPackageReference "NavigationBackport" */;

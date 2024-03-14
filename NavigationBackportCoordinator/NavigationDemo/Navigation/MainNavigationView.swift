@@ -18,7 +18,7 @@ struct MainNavigationView<Content: View>: View {
                 content
             }
             .navigationBarHidden(true)
-          //  .ignoresSafeArea(.container, edges: .vertical)
+            .ignoresSafeArea(.container, edges: .vertical)
         }
         .navigationViewStyle(.stack)
     }

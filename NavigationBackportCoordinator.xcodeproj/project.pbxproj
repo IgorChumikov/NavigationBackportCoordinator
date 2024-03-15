@@ -14,6 +14,11 @@
 		AC7CEF7C2BA1921E00EFE002 /* NavigationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7B2BA1921E00EFE002 /* NavigationStorage.swift */; };
 		AC7CEF7E2BA1923B00EFE002 /* NavigationPathItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7D2BA1923B00EFE002 /* NavigationPathItem.swift */; };
 		AC7CEF802BA1BC1A00EFE002 /* MainNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CEF7F2BA1BC1A00EFE002 /* MainNavigationView.swift */; };
+		ACB0258D2BA4636900A57644 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0258C2BA4636900A57644 /* TabBarRouter.swift */; };
+		ACB0258F2BA463A700A57644 /* FxTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0258E2BA463A700A57644 /* FxTabItem.swift */; };
+		ACB025912BA4646500A57644 /* FxTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025902BA4646500A57644 /* FxTabBar.swift */; };
+		ACB025972BA4655400A57644 /* BananaForTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025962BA4655400A57644 /* BananaForTabBarView.swift */; };
+		ACB025992BA4695200A57644 /* CarrotForTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */; };
 		ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */; };
 		ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E492B908DC6006EF14C /* ExampleView.swift */; };
 		ACC20E4C2B908DC8006EF14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC20E4B2B908DC8006EF14C /* Assets.xcassets */; };
@@ -57,6 +62,11 @@
 		AC7CEF7B2BA1921E00EFE002 /* NavigationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStorage.swift; sourceTree = "<group>"; };
 		AC7CEF7D2BA1923B00EFE002 /* NavigationPathItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathItem.swift; sourceTree = "<group>"; };
 		AC7CEF7F2BA1BC1A00EFE002 /* MainNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationView.swift; sourceTree = "<group>"; };
+		ACB0258C2BA4636900A57644 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		ACB0258E2BA463A700A57644 /* FxTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxTabItem.swift; sourceTree = "<group>"; };
+		ACB025902BA4646500A57644 /* FxTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxTabBar.swift; sourceTree = "<group>"; };
+		ACB025962BA4655400A57644 /* BananaForTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaForTabBarView.swift; sourceTree = "<group>"; };
+		ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotForTabBarView.swift; sourceTree = "<group>"; };
 		ACC20E442B908DC6006EF14C /* NavigationBackportCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBackportCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackportCoordinatorApp.swift; sourceTree = "<group>"; };
 		ACC20E492B908DC6006EF14C /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
@@ -144,6 +154,50 @@
 			path = NavigationBackport;
 			sourceTree = "<group>";
 		};
+		ACB0258B2BA4632300A57644 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ACB025922BA4649000A57644 /* TabBar */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		ACB025922BA4649000A57644 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ACB025952BA4653000A57644 /* SomeView */,
+				ACB025932BA464A400A57644 /* Model */,
+				ACB025942BA464BB00A57644 /* View */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		ACB025932BA464A400A57644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0258C2BA4636900A57644 /* TabBarRouter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACB025942BA464BB00A57644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACB025902BA4646500A57644 /* FxTabBar.swift */,
+				ACB0258E2BA463A700A57644 /* FxTabItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACB025952BA4653000A57644 /* SomeView */ = {
+			isa = PBXGroup;
+			children = (
+				ACB025962BA4655400A57644 /* BananaForTabBarView.swift */,
+				ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */,
+			);
+			path = SomeView;
+			sourceTree = "<group>";
+		};
 		ACC20E3B2B908DC6006EF14C = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +220,7 @@
 				ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */,
 				AC7CEF862BA1C8E500EFE002 /* NavigationBackport */,
 				AC7CEF702BA190DF00EFE002 /* NavigationDemo */,
+				ACB0258B2BA4632300A57644 /* CustomTabBar */,
 				ACC20E4B2B908DC8006EF14C /* Assets.xcassets */,
 				ACC20E4D2B908DC8006EF14C /* Preview Content */,
 			);
@@ -446,9 +501,14 @@
 				ACC20E932B9203AF006EF14C /* StrawberryView.swift in Sources */,
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,
 				ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */,
+				ACB025992BA4695200A57644 /* CarrotForTabBarView.swift in Sources */,
+				ACB025912BA4646500A57644 /* FxTabBar.swift in Sources */,
+				ACB0258F2BA463A700A57644 /* FxTabItem.swift in Sources */,
 				AC7CEF7C2BA1921E00EFE002 /* NavigationStorage.swift in Sources */,
 				AC7CEF722BA1911000EFE002 /* NavigationDemoView.swift in Sources */,
 				ACC20E802B91C968006EF14C /* Coordinator.swift in Sources */,
+				ACB025972BA4655400A57644 /* BananaForTabBarView.swift in Sources */,
+				ACB0258D2BA4636900A57644 /* TabBarRouter.swift in Sources */,
 				AC7CEF742BA1915E00EFE002 /* FirstView.swift in Sources */,
 				ACC20EA02B970DE4006EF14C /* CoordinatorPlus.swift in Sources */,
 				ACC20E642B90A59D006EF14C /* EmojiView.swift in Sources */,

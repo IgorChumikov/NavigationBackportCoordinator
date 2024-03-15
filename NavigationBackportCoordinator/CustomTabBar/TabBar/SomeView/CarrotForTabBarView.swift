@@ -20,6 +20,7 @@ struct CarrotForTabBarView: View {
                // navigator.popToRoot()
             }
         }
+        .withTabBar(isShowBarTab: false)
         .navigationTitle("🥕")
     }
 }

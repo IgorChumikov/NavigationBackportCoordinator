@@ -19,6 +19,10 @@
 		ACB025912BA4646500A57644 /* FxTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025902BA4646500A57644 /* FxTabBar.swift */; };
 		ACB025972BA4655400A57644 /* BananaForTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025962BA4655400A57644 /* BananaForTabBarView.swift */; };
 		ACB025992BA4695200A57644 /* CarrotForTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */; };
+		ACB0259B2BA47EE000A57644 /* TabBarModifier2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0259A2BA47EE000A57644 /* TabBarModifier2.swift */; };
+		ACB0259D2BA4803F00A57644 /* TabsPlusView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0259C2BA4803F00A57644 /* TabsPlusView3.swift */; };
+		ACB0259F2BA483AD00A57644 /* LemonForTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0259E2BA483AD00A57644 /* LemonForTabBarView.swift */; };
+		ACB025A22BA4841400A57644 /* CoordinatorTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB025A12BA4841400A57644 /* CoordinatorTabBar.swift */; };
 		ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */; };
 		ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20E492B908DC6006EF14C /* ExampleView.swift */; };
 		ACC20E4C2B908DC8006EF14C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC20E4B2B908DC8006EF14C /* Assets.xcassets */; };
@@ -67,6 +71,10 @@
 		ACB025902BA4646500A57644 /* FxTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxTabBar.swift; sourceTree = "<group>"; };
 		ACB025962BA4655400A57644 /* BananaForTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaForTabBarView.swift; sourceTree = "<group>"; };
 		ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotForTabBarView.swift; sourceTree = "<group>"; };
+		ACB0259A2BA47EE000A57644 /* TabBarModifier2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModifier2.swift; sourceTree = "<group>"; };
+		ACB0259C2BA4803F00A57644 /* TabsPlusView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsPlusView3.swift; sourceTree = "<group>"; };
+		ACB0259E2BA483AD00A57644 /* LemonForTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonForTabBarView.swift; sourceTree = "<group>"; };
+		ACB025A12BA4841400A57644 /* CoordinatorTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTabBar.swift; sourceTree = "<group>"; };
 		ACC20E442B908DC6006EF14C /* NavigationBackportCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBackportCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC20E472B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackportCoordinatorApp.swift; sourceTree = "<group>"; };
 		ACC20E492B908DC6006EF14C /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
@@ -157,6 +165,7 @@
 		ACB0258B2BA4632300A57644 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				ACB025A02BA483F700A57644 /* CoordinatorTabBar */,
 				ACB025922BA4649000A57644 /* TabBar */,
 			);
 			path = CustomTabBar;
@@ -185,6 +194,8 @@
 			children = (
 				ACB025902BA4646500A57644 /* FxTabBar.swift */,
 				ACB0258E2BA463A700A57644 /* FxTabItem.swift */,
+				ACB0259A2BA47EE000A57644 /* TabBarModifier2.swift */,
+				ACB0259C2BA4803F00A57644 /* TabsPlusView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,8 +205,17 @@
 			children = (
 				ACB025962BA4655400A57644 /* BananaForTabBarView.swift */,
 				ACB025982BA4695200A57644 /* CarrotForTabBarView.swift */,
+				ACB0259E2BA483AD00A57644 /* LemonForTabBarView.swift */,
 			);
 			path = SomeView;
+			sourceTree = "<group>";
+		};
+		ACB025A02BA483F700A57644 /* CoordinatorTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				ACB025A12BA4841400A57644 /* CoordinatorTabBar.swift */,
+			);
+			path = CoordinatorTabBar;
 			sourceTree = "<group>";
 		};
 		ACC20E3B2B908DC6006EF14C = {
@@ -502,6 +522,7 @@
 				ACC20E962B96FE2C006EF14C /* TabsPlusView.swift in Sources */,
 				ACC20E9C2B970889006EF14C /* HousePlusView.swift in Sources */,
 				ACB025992BA4695200A57644 /* CarrotForTabBarView.swift in Sources */,
+				ACB0259B2BA47EE000A57644 /* TabBarModifier2.swift in Sources */,
 				ACB025912BA4646500A57644 /* FxTabBar.swift in Sources */,
 				ACB0258F2BA463A700A57644 /* FxTabItem.swift in Sources */,
 				AC7CEF7C2BA1921E00EFE002 /* NavigationStorage.swift in Sources */,
@@ -518,6 +539,8 @@
 				ACC20E5E2B90A3AE006EF14C /* NumberListView.swift in Sources */,
 				ACC20E8B2B91D19A006EF14C /* OliveView.swift in Sources */,
 				AC7CEF802BA1BC1A00EFE002 /* MainNavigationView.swift in Sources */,
+				ACB025A22BA4841400A57644 /* CoordinatorTabBar.swift in Sources */,
+				ACB0259D2BA4803F00A57644 /* TabsPlusView3.swift in Sources */,
 				ACC20EA32B970EF9006EF14C /* ListPage.swift in Sources */,
 				ACC20E7D2B90CC71006EF14C /* CarrotView.swift in Sources */,
 				AC7CEF7A2BA191F600EFE002 /* View+Navigation.swift in Sources */,
@@ -529,6 +552,7 @@
 				AC7CEF762BA1917100EFE002 /* SecondView.swift in Sources */,
 				ACC20E4A2B908DC6006EF14C /* ExampleView.swift in Sources */,
 				ACC20E482B908DC6006EF14C /* NavigationBackportCoordinatorApp.swift in Sources */,
+				ACB0259F2BA483AD00A57644 /* LemonForTabBarView.swift in Sources */,
 				ACC20E602B90A43A006EF14C /* NumberView.swift in Sources */,
 				ACC20E8F2B91E3B9006EF14C /* BananaUIKitView.swift in Sources */,
 				ACC20E852B91CD05006EF14C /* Sheet.swift in Sources */,

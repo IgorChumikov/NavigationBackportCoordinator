@@ -39,21 +39,6 @@ struct TabsPlusView3: View {
         }
         .environmentObject(coordinator)
     }
-    
-    @ViewBuilder
-    private var contentView: some View {
-        switch tabbarRouter.currentPage {
-        case .home:
-            BananaForTabBarView()
-                .environmentObject(tabbarRouter)
-        case .map:
-            CarrotForTabBarView()
-                .environmentObject(tabbarRouter)
-        case .profile:
-            BananaForTabBarView()
-                .environmentObject(tabbarRouter)
-        }
-    }
 }
 
 #Preview {

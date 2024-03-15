@@ -6,21 +6,25 @@
 //
 
 import SwiftUI
+import NavigationBackport
 
 struct CarrotForTabBarView: View {
+    
+    @EnvironmentObject var navigator: PathNavigator
+    
     var body: some View {
         List {
             Button("Push SwiftUI 🍓") {
-            //    navigator.push(Page.strawberry)
+                navigator.push(Page.strawberry)
             }
             Button("Pop") {
-               // navigator.pop()
+                navigator.pop()
             }
             Button("Pop to root") {
-               // navigator.popToRoot()
+                navigator.popToRoot()
             }
         }
-        .withTabBar(isShowBarTab: false)
+        .withTabBar(isShowBarTab: true)
         .navigationTitle("🥕")
     }
 }

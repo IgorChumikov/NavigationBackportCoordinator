@@ -1,5 +1,5 @@
 //
-//  BananaForTabBarView.swift
+//  StrawberryForTabBarView.swift
 //  NavigationBackportCoordinator
 //
 //  Created by Игорь Чумиков on 15.03.2024.
@@ -8,7 +8,8 @@
 import SwiftUI
 import NavigationBackport
 
-struct BananaForTabBarView: View {
+struct StrawberryForTabBarView: View {
+    // MARK: - Properties
     
     @EnvironmentObject var navigator: PathNavigator
     
@@ -16,20 +17,14 @@ struct BananaForTabBarView: View {
     
     var body: some View {
         List {
-            Button("Push SwiftUI 🥕") {
-                navigator.push(Page.carrot)
-            }
             Button("Pop") {
                 navigator.pop()
             }
-            ForEach(0..<30) { index in
-                Text("Banana \(index + 1)")
-            }
         }
-        .navigationTitle("🍌")
+        .navigationTitle("🍓")
     }
 }
 
 #Preview {
-    BananaForTabBarView()
+    StrawberryForTabBarView()
 }

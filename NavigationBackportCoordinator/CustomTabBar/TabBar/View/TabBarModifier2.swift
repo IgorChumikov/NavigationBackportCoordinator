@@ -36,10 +36,10 @@ struct TabBarModifier2: ViewModifier {
             BananaForTabBarView()
                 .environmentObject(tabbarRouter)
         case .map:
-            CarrotForTabBarView()
+            FirstView()
                 .environmentObject(tabbarRouter)
         case .profile:
-            BananaForTabBarView()
+            SecondView()
                 .environmentObject(tabbarRouter)
         }
     }

@@ -48,9 +48,9 @@ final class CoordinatorTabBar: ObservableObject {
         case .carrot:
             CarrotForTabBarView()
         case .strawberry:
-            StrawberryView()
+            StrawberryForTabBarView()
         case .bananaUIKit:
-            BananaUIKitViewAssembly()
+           EmptyView()
         }
     }
     
